@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FourSquareTab" 
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >  
+        
+	   <EditText 
+	       android:id="@+id/query_edittext"
+           android:layout_width="180dp"
+           android:layout_height="wrap_content"
+	       />
+	   
+	   <Button
+            android:id="@+id/query_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textSize="12sp" />
+	   
+	   <ImageButton
+            android:id="@+id/favorite_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favorite"
+            android:scaleType="fitCenter" />
+        
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/venue_listview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:textSize="17sp"
+	        android:textStyle="bold"
+	        android:text="@string/selected_venue" />
+		
+		<Button
+        	android:id="@+id/add_to_favorite_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:text="@string/add_favorite"
+	        android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/empty_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/empty"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/custom_venue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/custom"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/venue_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_world" />
+	
+</LinearLayout>
