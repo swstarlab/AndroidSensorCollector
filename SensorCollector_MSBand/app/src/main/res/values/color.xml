@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="white">#FFFFFFFF</color>    
+	<color name="black">#FF000000</color>         
+	<color name="dim">#77000000</color>
+	<color name="orange1">#77ffa500</color>
+	<color name="orange2">#FFFFA500</color>
+	<color name="red1">#77ff6347</color>
+	<color name="red2">#FFff6347</color>
+	<color name="transparent">#00000000</color> 
+	<color name="lightblue1">#77add8e6</color>
+	<color name="lightblue2">#FFadd8e6</color>
+	<color name="greenyellow1">#77adff2f</color>
+	<color name="greenyellow2">#FFadff2f</color>
+	<color name="lightgreen1">#7790ee90</color>
+	<color name="lightgreen2">#FF90ee90</color>
+	<color name="lavender1">#77e6e6fa</color>
+	<color name="lavender2">#FFe6e6fa</color>
+	<color name="deepskyblue1">#7700bfFf</color>
+	<color name="deepskyblue2">#FF00bfFf</color>
+	<color name="gold1">#77ffd700</color>
+	<color name="gold2">#FFffd700</color>
+	<color name="khaki1">#77f0e68c</color>
+	<color name="khaki2">#FFf0e68c</color>
+	<color name="lemonchiffon1">#77fffacd</color>
+	<color name="lemonchiffon2">#FFfffacd</color>
+	<color name="purple">#FFa020f0</color>
+</resources> 
