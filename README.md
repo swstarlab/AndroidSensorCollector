@@ -14,5 +14,14 @@
 
 설치법
 ============
+MySQL 설치후 데이터베이스 스키마 파일인 lifome_db_YYYY_MM_dd.sql을 실행한다.
+```
+mysql < lifome_db_2015_10_28.sql
+```
+
+SensorWeb은 이클립스로 import한 후, Maven 플러그인을 활성화시켜야 한다.
+이 웹 프로직트를 WAR 파일로 export한 후 tomcat의 webapps 폴더 안에 넣으면 웹 서버가 실행되어 센서 데이터를 받아들일 준비가 된다.
+
+안드로이드 앱 프로젝트는 Android Studio로 import하여 사용할 수 있다.
 
 
